@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>TODO Tracker</h1>
+    <p><a href="create.html" class="btn btn-success" role="button">Neues TODO anlegen</a></p>            
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Was zu tun ist</th>
+          <th>Deadline</th>
+          <th>Fortschritt</th>
+          <th>Aktionen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stochastik Hausaufgaben</td>
+          <td>02.05.2016</td>
+          <td>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:15%">15%
+              </div>
+            </div> 
+          </td>
+          <td><abbr title="TODO bearbeiten"><a href="edit1.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-pencil"></span></a></abbr>
+            <abbr title="TODO löschen"><a href="#" class="btn btn-danger" role="button">
+              <span class="glyphicon glyphicon-trash"></span></a></abbr></td>
+            </tr>
+            <tr>
+              <td>Präsentation Soziale Netzwerke</td>
+              <td>02.05.2016</td>
+              <td><div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                100%
+              </div>
+            </div> 
+          </td>
+          <td><abbr title="TODO bearbeiten"><a href="edit2.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-pencil"></span></a></abbr>
+            <abbr title="TODO löschen"><a href="#" class="btn btn-danger" role="button">
+              <span class="glyphicon glyphicon-trash"></span></a></abbr></td>
+            </tr>
+            <tr>
+              <td>3x Sport treiben in dieser Woche</td>
+              <td>08.05.2016</td>
+              <td><div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                65%
+              </div>
+            </div> 
+          </td>
+          <td><abbr title="TODO bearbeiten"><a href="edit3.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-pencil"></span></a></abbr>
+            <abbr title="TODO löschen"><a href="#" class="btn btn-danger" role="button">
+              <span class="glyphicon glyphicon-trash"></span></a></abbr></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="text-center">
+          <a href="about.html">Impressum</a>
+        </p>
+      </div>
+    </body>
+  </html>
